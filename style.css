@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+}
+
+p {
+	color: green;
+	/*font-family: 'Playball', cursive;
+	font-size: 20px;*/
+}
+
+h1 {
+	color: green;
+	font-family: 'Lobster', cursive;
+}
+
+.img-circle {
+	width: 35%; 
+	height: 35%;
+	border-radius: 25%;
+}
+
+.top-intro {
+	margin-top:50px;
+}
+
+.aboutme-detailed {
+	margin-top: 4%;
+}
+
+.social-media {
+	margin-top: 6%;
+	display:block;
+    text-align:center;
+}
+
+.container {
+	/*margin-left: auto;
+	margin-right: auto;*/
+	padding-right: 0; 
+    padding-left: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+}
