@@ -4,6 +4,7 @@ body {
 
 p {
 	color: green;
+	font-size: 18px;
 	/*font-family: 'Playball', cursive;
 	font-size: 20px;*/
 }
@@ -11,12 +12,29 @@ p {
 h1 {
 	color: green;
 	font-family: 'Lobster', cursive;
+	margin-bottom: 25px;
 }
 
-.img-circle {
-	width: 35%; 
-	height: 35%;
-	border-radius: 25%;
+#AboutImg {
+	max-width: 100%;
+	width: 50%; 
+	height: auto;
+	display: block;
+	
+	background-position-y: center;
+	background-position-x: center;
+	background-repeat: no-repeat;
+
+	background-size: cover;
+	overflow:hidden;
+    border-radius:50%
+
+    margin: 0 auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
 }
 
 .top-intro {
@@ -33,11 +51,14 @@ h1 {
     text-align:center;
 }
 
-.container {
-	/*margin-left: auto;
-	margin-right: auto;*/
-	padding-right: 0; 
-    padding-left: 0;
-    margin-right: 10%;
-    margin-left: 10%;
+
+img {
+  border-radius: 50%;
+  transition: all 0.8s ease-in-out 0s;
+}
+
+img:hover {
+  cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.8s ease-in-out 0s;
 }
