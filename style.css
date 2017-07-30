@@ -25,9 +25,9 @@ h1 {
 
 	background-size: cover;
 	overflow:hidden;
-    border-radius:50%
+    border-radius:50%;
 
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 	top: 0;
 	left: 0;
 	right: 0;
@@ -275,4 +275,18 @@ html { height: 100%;}
     bottom: 0;
     /*background-color: rgba(250,250,250,.8);*/
     z-index: 1;
+}
+
+
+/*icon loading before page loads*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(image/Preloader_2.gif) center no-repeat #fff;
 }
