@@ -1,7 +1,7 @@
 /*icon loading before page loads*/
 $(window).load(function() {
 		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
+		$(".se-pre-con").delay(3000).fadeOut("slow");
 });
 
 
